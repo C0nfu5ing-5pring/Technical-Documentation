@@ -1,0 +1,413 @@
+*::selection {
+    background-color: #FFA3FD;
+    color: black;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #191825;
+    scroll-behavior: smooth;
+}
+
+/**Headers**/
+
+header {
+    color: #865DFF;
+    font-weight: 700;
+    font-size: 28.8px;
+    padding-bottom: 10px;
+}
+
+/**Introduction**/
+
+section#Introduction {
+    margin: 25px;
+}
+
+.introductionParagraph {
+    margin-left: 10px;
+    padding: 2px;
+    font-size: 17.36px;
+    font-weight: 500;
+    color: #E384FF;
+}
+
+.introductionUlLi {
+    margin-left: 25px;
+    color: #fff;
+    padding: 8px;
+}
+
+/**What_you_should_already_know**/
+
+section#What_you_should_already_know {
+    margin: 25px;
+}
+
+.What_you_should_already_knowParagraph {
+    margin-left: 10px;
+    padding: 2px;
+    font-size: 17.36px;
+    font-weight: 500;
+    color: #E384FF;
+}
+
+.What_you_should_already_knowUlLi {
+    margin-left: 25px;
+    color: #fff;
+    padding: 8px;
+}
+
+/**JavaScript_and_Java**/
+
+section#JavaScript_and_Java {
+    margin: 25px;
+}
+
+.JavaScript_and_JavaParagraph {
+    margin-left: 10px;
+    padding: 2px;
+    font-size: 17.36px;
+    font-weight: 500;
+    color: #E384FF;
+}
+
+/**Hello_world**/
+section#Hello_World {
+    margin: 25px;
+}
+
+.Hello_WorldParagraph {
+    margin-left: 10px;
+    padding: 2px;
+    font-size: 17.36px;
+    font-weight: 500;
+    color: #E384FF;
+}
+
+.Hello_WorldParagraph2 {
+    margin-left: 10px;
+    margin-top: 16px;
+    font-size: 17.36px;
+    font-weight: 500;
+    color: #E384FF;
+}
+
+.Hello_WorldCode {
+    margin-left: 20px;
+    background-color: #FFA3FD;
+    font-weight: 900;
+    color: black;
+}
+
+/**Variables**/
+
+section#Variables {
+    margin: 25px;
+}
+
+.VariablesParagraph {
+    margin-left: 10px;
+    padding: 2px;
+    font-size: 17.36px;
+    font-weight: 500;
+    color: #E384FF;
+}
+
+/**Declaring Variables**/
+
+section#Declaring_Variables {
+    margin: 25px;
+}
+
+.Declaring_VariablesParagraph {
+    margin-left: 10px;
+    padding: 2px;
+    font-size: 17.36px;
+    font-weight: 500;
+    color: #E384FF;
+}
+
+.Declaring_VariablesParagraph2 {
+    margin-left: 10px;
+    margin-top: 16px;
+    font-size: 17.36px;
+    font-weight: 500;
+    color: #E384FF;
+}
+
+.Declaring_VariablesCode {
+    margin-left: 20px;
+    background-color: #FFA3FD;
+    font-weight: 900;
+    color: black;
+}
+
+/**Variable Scope**/
+
+section#Variable_Scope {
+    margin: 25px;
+}
+
+.Variable_ScopeParagraph {
+    margin-left: 10px;
+    padding: 2px;
+    font-size: 17.36px;
+    font-weight: 500;
+    color: #E384FF;
+}
+
+.Variable_ScopeCode {
+    margin-left: 20px;
+    background-color: #FFA3FD;
+    font-weight: 900;
+    color: black;
+}
+
+/**Global Variables**/
+
+section#Global_Variables {
+    margin: 25px
+}
+
+.Global_VariablesParagraph {
+    margin-left: 10px;
+    padding: 2px;
+    font-size: 17.36px;
+    font-weight: 500;
+    color: #E384FF;
+}
+
+/**Constants**/
+
+section#Constants {
+    margin: 25px
+}
+
+.ConstantsParagraph {
+    margin-left: 10px;
+    padding: 2px;
+    font-size: 17.36px;
+    font-weight: 500;
+    color: #E384FF;
+}
+
+.ConstantsParagraph2 {
+    margin-left: 10px;
+    margin-top: 16px;
+    font-size: 17.36px;
+    font-weight: 500;
+    color: #E384FF;
+}
+
+.ConstantsCode {
+    margin-left: 20px;
+    background-color: #FFA3FD;
+    font-weight: 900;
+    color: black;
+}
+
+/**Data Types**/
+
+section#Data_types {
+    margin: 25px
+}
+
+.Data_typesParagraph {
+    margin-left: 10px;
+    padding: 2px;
+    font-size: 17.36px;
+    font-weight: 500;
+    color: #E384FF;
+}
+
+.Data_typesParagraph2 {
+    margin-left: 10px;
+    margin-top: 12px;
+    padding: 2px;
+    font-size: 17.36px;
+    font-weight: 500;
+    color: #E384FF;
+}
+
+.Data_typesUlLi {
+    padding: 2px;
+    font-size: 17px;
+    margin-left: 25px;
+    color: #fff;
+}
+
+.Data_typesUlLiLi {
+    margin-left: 50px;
+    color: #fff;
+    padding: 3px;
+    list-style: circle;
+}
+
+/**if...else statement**/
+
+section#if_else_statements {
+    margin: 25px
+}
+
+.if_else_statementsParagraph {
+    margin-left: 10px;
+    padding: 2px;
+    font-size: 17.36px;
+    font-weight: 500;
+    color: #E384FF;
+}
+
+.if_else_statementsParagraph2 {
+    margin-left: 10px;
+    margin-top: 16px;
+    padding: 2px;
+    font-size: 17.36px;
+    font-weight: 500;
+    color: #E384FF;
+}
+
+.if_else_statementsCode {
+    margin-left: 20px;
+    background-color: #FFA3FD;
+    font-weight: 900;
+    color: black;
+}
+
+/**while statement**/
+
+section#while_statement {
+    margin: 25px;
+}
+
+.while_statementParagraph {
+    margin-left: 10px;
+    padding: 2px;
+    font-size: 17.36px;
+    font-weight: 500;
+    color: #E384FF;
+}
+
+.while_statementParagraph2 {
+    margin-left: 10px;
+    margin-top: 16px;
+    padding: 2px;
+    font-size: 17.36px;
+    font-weight: 500;
+    color: #E384FF;
+}
+
+.while_statementUlLi {
+    padding: 2px;
+    font-size: 17px;
+    margin-left: 25px;
+    color: #fff;
+}
+
+.while_statementCode {
+    margin-left: 20px;
+    background-color: #FFA3FD;
+    font-weight: 900;
+    color: black;
+}
+
+/**while statement**/
+
+section#Function_declaration {
+    margin: 25px;
+}
+
+.Function_declarationParagraph {
+    margin-left: 10px;
+    padding: 2px;
+    font-size: 17.36px;
+    font-weight: 500;
+    color: #E384FF;
+}
+
+.Function_declarationParagraph2 {
+    margin-left: 10px;
+    margin-top: 16px;
+    padding: 2px;
+    font-size: 17.36px;
+    font-weight: 500;
+    color: #E384FF;
+}
+
+.Function_declarationUlLi {
+    padding: 2px;
+    font-size: 17px;
+    margin-left: 25px;
+    color: #fff;
+}
+
+.Function_declarationCode {
+    margin-left: 20px;
+    background-color: #FFA3FD;
+    font-weight: 900;
+    color: black;
+}
+
+/**Reference**/
+
+section#Reference {
+    margin: 25px;
+}
+
+.ReferenceUlLi {
+    padding: 2px;
+    font-size: 17px;
+    margin-left: 25px;
+    color: #fff;
+}
+
+.Referencea {
+    color: goldenrod;
+}
+
+/**Navabr**/
+
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 22%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+#navbar>header {
+    position: sticky;
+    top: 0;
+    margin-left: 20px;
+    font-size: 34px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.nav-link {
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    color: goldenrod;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 300px;
+    padding: 40px;
+}
+
+.navbar-header {
+    margin-top: 20px;
+}
