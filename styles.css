@@ -57,7 +57,7 @@ header {
 
 /**Sections**/
 
-section#Introduction, section#What_you_should_already_know, section#JavaScript_and_Java, section#Hello_World, section#Variables, section#Declaring_Variables, section#Variable_Scope, section#Global_Variables, section#Global_Variables, section#Data_types, section#if_else_statements, section#while_statement, section#Function_declaration, section#Reference {
+.main-section {
     margin: 25px;
 }
 
