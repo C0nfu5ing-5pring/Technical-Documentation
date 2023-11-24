@@ -1,15 +1,16 @@
 # Technical Documentation Repository
 
-Welcome to the GitHub repository for my Technical Documentation Page! 📚 This repository contains the code and assets for a comprehensive technical documentation page, designed to provide clear and organized information about a specific technology or topic.
+Welcome to the GitHub repository for my Technical Documentation Page! 📚 This repository contains the code and assets for a comprehensive technical documentation page, now designed to be responsive for a wide range of devices.
 
 ## Key Features
 
+- **Responsive Design:** The documentation page is crafted to provide an optimal viewing experience across various devices, including desktops, laptops, tablets, and smartphones.
 - **Structured Layout:** The content is organized into logical sections and subsections, enhancing readability and ease of navigation.
-- **Clean HTML and CSS:** Crafted using HTML for structure and CSS for styling, the code is both clean and customizable. Any additional styling is done with simplicity and maintainability in mind.
+- **Clean HTML and CSS:** The code is clean, customizable, and designed with simplicity and maintainability in mind.
 
 ## Important Note
 
-⚠️ **Non-Responsive Design:** Please be aware that the documentation page in this repository is not designed to be fully responsive. It is recommended to view it on larger screens for the best experience.
+⚠️ **Device Compatibility:** The documentation page is responsive for devices such as desktops, laptops, tablets, and smartphones. However, it may not be optimized for smartwatches and large television screens.
 
 ## How to Use
 
@@ -35,4 +36,4 @@ Welcome to the GitHub repository for my Technical Documentation Page! 📚 This 
 
 This project is licensed under the MIT License.
 
-Feel free to use this repository as a foundation for creating detailed technical documentation. Thank you for exploring this Technical Documentation Repository! If you have any questions or suggestions, feel free to reach out. 😊
+Feel free to use this repository as a foundation for creating detailed and responsive technical documentation. Thank you for exploring this Technical Documentation Repository! If you have any questions or suggestions, feel free to reach out. 😊
