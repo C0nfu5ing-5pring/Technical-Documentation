@@ -31,7 +31,7 @@
             <a href="#Reference" class="nav-link">Reference</a>
         </nav>
         <section class="main-section" id="Introduction">
-            <header>Introduction</header>
+            <header id="Introduction">Introduction</header>
             <p class="Paragraph">JavaScript is a cross-platform, object-oriented scripting language. It is a
                 small and lightweight
                 language. Inside a host environment (for example, a web browser), JavaScript can be connected to the
@@ -59,20 +59,20 @@
             </ul>
         </section>
         <section class="main-section" id="What_you_should_already_know">
-            <header>What you should already know</header>
-            <p class="Paragraph">This guide assumes you have the following basic background:
-            </p>
-            <ul>
-                <li class="UlLi">A general understanding of the Internet and the World Wide
-                    Web (WWW).</li>
-                <li class="UlLi">Good working knowledge of HyperText Markup Language (HTML).
-                </li>
-                <li class="UlLi">Some programming experience. If you are new to programming,
-                    try one of the tutorials linked on the main page about JavaScript.</li>
-            </ul>
+            <header id="What_you_should_already_know"">What you should already know</header>
+            <p class=" Paragraph">This guide assumes you have the following basic background:
+                </p>
+                <ul>
+                    <li class="UlLi">A general understanding of the Internet and the World Wide
+                        Web (WWW).</li>
+                    <li class="UlLi">Good working knowledge of HyperText Markup Language (HTML).
+                    </li>
+                    <li class="UlLi">Some programming experience. If you are new to programming,
+                        try one of the tutorials linked on the main page about JavaScript.</li>
+                </ul>
         </section>
         <section class="main-section" id="JavaScript_and_Java">
-            <header>JavaScript and Java</header>
+            <header class="JavaScript_and_Java">JavaScript and Java</header>
             <p class="Paragraph">JavaScript and Java are similar in some ways but fundamentally
                 different in some others. The JavaScript language resembles Java but does not have Java's static typing
                 and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic
@@ -90,7 +90,7 @@
                 parameters, and function return types are not explicitly typed.</p>
         </section>
         <section class="main-section" id="Hello_World">
-            <header>Hello World</header>
+            <header class="Hello_World">Hello World</header>
             <p class="Paragraph">To get started with writing JavaScript, open the Scratchpad and write your
                 first "Hello world" JavaScript code:</p>
             <code class="Code">function greetMe(yourName) { alert("Hello " + yourName); }
@@ -99,7 +99,7 @@ greetMe("World");</code>
                 browser!</p>
         </section>
         <section class="main-section" id="Variables">
-            <header>Variables</header>
+            <header class="Variables">Variables</header>
             <p class="Paragraph">You use variables as symbolic names for values in your application. The names
                 of variables, called identifiers, conform to certain rules.</p>
             <p class="Paragraph">A JavaScript identifier must start with a letter, underscore (_), or dollar
@@ -110,7 +110,7 @@ greetMe("World");</code>
                 Number_hits, temp99, and _name.</p>
         </section>
         <section class="main-section" id="Declaring_Variables">
-            <header>Declaring Variables</header>
+            <header id="Declaring_Variables">Declaring Variables</header>
             <p class="Paragraph">You can declare a variable in three ways:</p>
             <p class="Paragraph">With the keyword var. For example,</p>
             <code class="Code">var x = 42.</code>
@@ -128,7 +128,7 @@ greetMe("World");</code>
                 Variable scope below.</p>
         </section>
         <section class="main-section" id="Variable_Scope">
-            <header>Variable Scope</header>
+            <header class="Variable_Scope">Variable Scope</header>
             <p class="Paragraph">When you declare a variable outside of any function, it is called a
                 global variable, because it is available to any other code in the current document. When you declare a
                 variable within a function, it is called a local variable, because it is available only within that
@@ -144,7 +144,7 @@ greetMe("World");</code>
 not defined</code>
         </section>
         <section class="main-section" id="Global_Variables">
-            <header>Global Variables</header>
+            <header class="Global_Variables">Global Variables</header>
             <p class="Paragraph">Global variables are in fact properties of the global object. In web
                 pages the global object is window, so you can set and access global variables using the window.variable
                 syntax.</p>
@@ -154,7 +154,7 @@ not defined</code>
                 parent.phoneNumber.</p>
         </section>
         <section class="main-section" id="Constants">
-            <header>Constants</header>
+            <header class="Constants">Constants</header>
             <p class="Paragraph">You can create a read-only, named constant with the const keyword. The syntax
                 of a constant identifier is the same as for a variable identifier: it must start with a letter,
                 underscore or dollar sign and can contain alphabetic, numeric, or underscore characters.</p>
@@ -174,7 +174,7 @@ WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
 "otherValue";</code>
         </section>
         <section class="main-section" id="Data_types">
-            <header>Data types</header>
+            <header class="Data_types">Data types</header>
             <p class="Paragraph">The latest ECMAScript standard defines seven data types:</p>
             <ul>
                 <li class="UlLi">Six data types that are primitives:
@@ -195,7 +195,7 @@ WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
             </ul>
         </section>
         <section class="main-section" id="if_else_statements">
-            <header>if...else statement</header>
+            <header class="if_else_statements">if...else statement</header>
             <p class="Paragraph">Use the if statement to execute a statement if a logical condition is
                 true. Use the optional else clause to execute a statement if the condition is false. An if statement
                 looks as follows:</p>
@@ -219,7 +219,7 @@ statement_last; }</code>
             <code class="Code">if ((x = y)) { /* statements here */ }</code>
         </section>
         <section class="main-section" id="while_statement">
-            <header>while statement</header>
+            <header class="while_statement">while statement</header>
             <p class="Paragraph">A while statement executes its statements as long as a specified
                 condition evaluates to true. A while statement looks as follows:</p>
             <code class="Code">while (condition) statement</code>
@@ -244,7 +244,7 @@ statement_last; }</code>
                     terminates.</p>
         </section>
         <section class="main-section" id="Function_declaration">
-            <header>Function declaration</header>
+            <header class="Function_declaration">Function declaration</header>
             <p class="Paragraph">A function definition (also called a function declaration, or
                 function statement) consists of the function keyword, followed by:</p>
             <ul>
@@ -267,7 +267,7 @@ statement_last; }</code>
                 change is not reflected globally or in the calling function.</p>
         </section>
         <section class="main-section" id="Reference">
-            <header>Reference</header>
+            <header class="Reference">Reference</header>
             <ul>
                 <li class="UlLi">All the documentation in this page is taken from <a
                         href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank"
