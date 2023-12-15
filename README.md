@@ -17,7 +17,7 @@ Welcome to the GitHub repository for my Technical Documentation Page! 📚 This 
 1. **Clone or Download:**
    - Clone this repository to your local machine using Git:
      ```
-     git clone https://github.com/your-username/Technical-Documentation.git
+     git clone https://github.com/c0nfu5ing-5pring/Technical-Documentation.git
      ```
    - Alternatively, download the repository using GitHub's download option.
 
